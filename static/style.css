@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.MyGradientClass {
+    display: block;
+    background: linear-gradient(5deg, purple, white);
+
+}
+.holder {
+    margin-top: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 3fr));
+    gap: 200px;
+}
+h1{
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+#top1,
+#top2,
+#top3,
+#top4 {
+    margin-top: -60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+    text-align: center; 
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border-color: rgba(255, 8, 0, 0.068);
+    border-radius: 3px;
+    margin: 2%;
+    margin-left: 10%;
+    background-color: #9b9898;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #38f738b6;
+  }
+  
+  button:active {
+    background-color: rgba(255, 8, 0, 0.589);
+  }
