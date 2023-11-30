@@ -8,18 +8,36 @@ Hamid Choucha & Anna Frederick
 
 Subject: Topic modeling of Amazon review data
 
-Datasets: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
+Dataset: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 
-Models:
+Models used:
 
-- LDA (TODO: specific)
-- BERTopic
+- LDA (Hamid)
+- BERTopic (Anna)
 
-## Possible References:
+## Bertopic usage info:
 
-- LDA:
-  - https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0
-  - https://mohamedbakrey094.medium.com/all-about-latent-dirichlet-allocation-lda-in-nlp-6cfa7825034e#:~:text=Text%20summarization%20involves%20generating%20a,applied%20to%20several%20NLP%20tasks
-- BERTopic:
-  - https://www.pinecone.io/learn/bertopic/
-  - https://hackernoon.com/nlp-tutorial-topic-modeling-in-python-with-bertopic-372w35l9
+### Environment
+
+- BERTopic can be installed using pip.
+- To use GPU acceleration for UMAP and hDBSCAN, you need to install RAPIDS cuML.
+  - For specific installation info, please reference: https://docs.rapids.ai/install
+    - Make sure you install for the proper CUDA version (11.6 on Cheaha)
+    - Ensure you have the proper cupy version (cupy-cuda11x for Cheaha)
+  - Non-GPU accelerated versions of these packages are available if needed.
+
+### Scripts
+
+- `bertopic_giftcards.ipynb` will train on a small model of all giftcard reviews (~2000 reviews).
+- `bertopic_books.ipynb` will train a large model with 1 million book reviews.
+
+
+### Misc notes
+
+- No saved models are uploaded, as they are very large.
+
+## Citations:
+
+- Justifying recommendations using distantly-labeled reviews and fined-grained aspects
+  Jianmo Ni, Jiacheng Li, Julian McAuley
+  Empirical Methods in Natural Language Processing (EMNLP), 2019
