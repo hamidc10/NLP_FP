@@ -15,13 +15,13 @@ Models used:
 - LDA (Hamid)
 - BERTopic (Anna)
 
-**Bertopic**
-===
+# **Bertopic**
 
 ## Bertopic usage info:
 
 ### Environment for Bertopic
 
+- Use the conda environment provided for the class (given in `nlp2023v2.yml`)
 - BERTopic can be installed using pip.
 - To use GPU acceleration for UMAP and hDBSCAN, you need to install RAPIDS cuML.
   - For specific installation info, please reference: https://docs.rapids.ai/install
@@ -46,26 +46,28 @@ Models used:
 - Justifying recommendations using distantly-labeled reviews and fined-grained aspects
   Jianmo Ni, Jiacheng Li, Julian McAuley
   Empirical Methods in Natural Language Processing (EMNLP), 2019
-  
+
 <br>
 
-**LDA**
-===
+# **LDA**
 
 ### Environment for LDA
+
+- Use the conda environment provided for the class (given in `nlp2023v2.yml`)
 - For LDA there was only one pip install to the already provided Environment that was given to use by Dr.Osborne
 - Make sure to !pip install pyLDAvis it is in the first code block if you don't want to do it prior.
 - As well as there is also nltk.download('brown') which is also on the first code block.
 
 ## LDA usage info:
--First you want to run Code Block 1 *Initialize the lda model*
--Second you want to run Code Block 2 *Grabbing the data from the database and make the .tar files into .json*
--Third you want to run Code Block 3 *This is used to condense the data into list*
--Finally you want to run Code Block 4 *This combines the data into one list as well cleans and tokenize them for use for the LDA model as well is used to initialize the data and make the html outputs*
+
+-First you want to run Code Block 1 _Initialize the lda model_
+-Second you want to run Code Block 2 _Grabbing the data from the database and make the .tar files into .json_
+-Third you want to run Code Block 3 _This is used to condense the data into list_
+-Finally you want to run Code Block 4 _This combines the data into one list as well cleans and tokenize them for use for the LDA model as well is used to initialize the data and make the html outputs_
 
 ### Scripts
--Just the Final LDA model that can be adapted and changed on the instance it is being run on as well as the what data the set the user want to use `Final LDA code.ipynb`
 
+-Just the Final LDA model that can be adapted and changed on the instance it is being run on as well as the what data the set the user want to use `Final LDA code.ipynb`
 
 ### Misc notes
 
@@ -76,17 +78,15 @@ Models used:
 ## Citations:
 
 - Topic Modeling in Python: Latent Dirichlet Allocation (LDA)
-'How to get started with topic modeling using LDA in Python'
-    - (https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
-  
-      Shashank Kapadia (Apr 14, 2019)
+  'How to get started with topic modeling using LDA in Python' - (https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
+
+        Shashank Kapadia (Apr 14, 2019)
 
 - Latent Dirichlet Allocation
-  
-    - (https://medium.com/analytics-vidhya/latent-dirichelt-allocation-1ec8729589d4)
-  Harsh Bansal (Mar 3, 2020)
+
+  - (https://medium.com/analytics-vidhya/latent-dirichelt-allocation-1ec8729589d4)
+    Harsh Bansal (Mar 3, 2020)
 
 - PyDavis
-  
-  - (https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know)
 
+  - (https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know)
