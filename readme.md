@@ -28,8 +28,11 @@ Models used:
 
 ### Scripts
 
-- `bertopic_giftcards.ipynb` will train on a small model of all giftcard reviews (~2000 reviews).
-- `bertopic_books.ipynb` will train a large model with 1 million book reviews.
+- all files run the same overall training process (some hyperparameters may be tweaked)
+  - `bertopic_giftcards.ipynb` will train on a small model of all giftcard reviews (~2000 reviews).
+  - `bertopic_books.ipynb` will train a large model with 1 million book reviews.
+  - `bertopic.ipynb` allows selecting and combining parts of different review datasets and training a model.
+    - Does 500K sports/outdoors and 500K kitchen reviews by default
 
 
 ### Misc notes
