@@ -10,6 +10,12 @@ Subject: Topic modeling of Amazon review data
 
 Dataset: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 
+Citation:
+
+- Justifying recommendations using distantly-labeled reviews and fined-grained aspects
+  Jianmo Ni, Jiacheng Li, Julian McAuley
+  Empirical Methods in Natural Language Processing (EMNLP), 2019
+
 Models used:
 
 - LDA (Hamid)
@@ -40,12 +46,6 @@ Models used:
 ### Misc notes
 
 - No saved models are uploaded, as they are very large.
-
-## Citations:
-
-- Justifying recommendations using distantly-labeled reviews and fined-grained aspects
-  Jianmo Ni, Jiacheng Li, Julian McAuley
-  Empirical Methods in Natural Language Processing (EMNLP), 2019
 
 <br>
 
